@@ -68,3 +68,14 @@ If two interface can contain a variable with same variable. And there maybe vari
 ![image](https://user-images.githubusercontent.com/67812755/117003277-468b3480-ad02-11eb-995e-1badd4cc7e38.png)
 
  
+### Marker Interface
+IF an interface doesn't contain any method and by implementing that interface if our object will get some ability such type of interface are called marker interface.
+Example: Serializable, Cloneable,RandomAccess,SignalThreadGroup
+
+Example 1:
+By implementing Serializable our object can be saved to any file and can travel across a network. 
+
+Example 2:
+By implementing Cloneable interface our object are in position to produce exactly duplicate cloned objects.
+
+Without having any method how the object will get the ability in marker Interface?
