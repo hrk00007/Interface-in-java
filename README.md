@@ -60,3 +60,11 @@ Still Problem not solved
 ![image](https://user-images.githubusercontent.com/67812755/117002577-5b1afd00-ad01-11eb-9eeb-684f46906234.png)
 
 Conclusion: If two  interface contains same signature but different return then it is impossible to implement both interface simulatenously. If return type are not co-varirant
+
+
+Problem 2
+If two interface can contain a variable with same variable. And there maybe variable naming complix but we can solve this problem by using interface names.
+
+![image](https://user-images.githubusercontent.com/67812755/117003277-468b3480-ad02-11eb-995e-1badd4cc7e38.png)
+
+ 
