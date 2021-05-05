@@ -129,5 +129,12 @@ Example: MyOwnServlet
 | Interface      | Abstract Classes |
 | ----------- | ----------- |
 | If we dont know anything about implementation and just we have requiremnet specification | If we are talking about implementation but not completely(partial implementation)|
-| In Interface every method is public and abstract wether we declare or not.Hence Interface is considered as 100% pure abstract class   | Every method present in abstract need not be public and abstract and we can take concrete method also|
-|As every interface method is always public and abstract and hence we can't declare with the following modifer private,protected,final,static,synchronized,native and stricfp     |  |There are no restriction  abstract class method modifiers |
+| In Interface every method is public and abstract wether we declare or not.Hence Interface is considered as 100% pure abstract class| Every method present in abstract need not be public and abstract and we can take concrete method also|
+| As every interface method is always public and abstract and hence we can't declare with the following modifer private,protected,final,static,synchronized,native and stricfp | There are no restriction  abstract class method modifiers | 
+|Every variable present inside interface is always public static final wether we are declaring or not.|Every variable present inside abstract class need not be always public static final|
+|As every interface varible is always public static final we can't declare with that following modifer: private,protected voliate and transisent|There are no restriction abstact class variable modifers| 
+|For interface variale compulsory we should perform intilization at the time of declaration only Otherwise we will get CE error| For abstract class variable we are not required to perform at the time of declaration |
+|Inside interface we can't declare static and instance block|Inside abstract class we can declare static and instance block|
+|Inside interface we can't declare constructor|Inside abstract class we can declare constructor|
+
+
