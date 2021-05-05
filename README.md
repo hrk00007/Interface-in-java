@@ -137,4 +137,38 @@ Example: MyOwnServlet
 |Inside interface we can't declare static and instance block|Inside abstract class we can declare static and instance block|
 |Inside interface we can't declare constructor|Inside abstract class we can declare constructor|
 
+### Conclusion
 
+Any we can't create object for abstract class but abstact class can contain constructor what is the need?
+Abstract class constrcutor will be executed whenever we are creating child object to perform intilization of child class object.
+
+**Problem:**
+
+We have to provide implmenation of constructor in every class we extend Person. Well this is definetly not a good programming practise.Our code length will be increase and readibilty will be less.
+
+
+![image](https://user-images.githubusercontent.com/67812755/117138018-23c35380-adc8-11eb-9677-e0c66335ee07.png)
+
+**Solution:**
+Provide the abstract class constructor and implement the common properties and it will invoked when we create child class object.
+
+
+![image](https://user-images.githubusercontent.com/67812755/117138565-d1cefd80-adc8-11eb-96f2-4961c4980246.png)
+
+
+**Can we replace interface with abstract class?**
+Yes, we can replace interface with abstract class but it is not a good programming practise.This is something like recruiting IAS officer for sweeping acitivy. If everything is abstract then it highly recommeded to go for interface.
+
+**Abstract class:**
+1. The problem with abstract class is we have to extend that class and we will lose the concept of inheritance.
+2. While creating the object parent class constrcutor and static block will also execute.
+
+
+![image](https://user-images.githubusercontent.com/67812755/117148818-3c396b00-add4-11eb-8d18-ae115b7dcc7a.png)
+
+
+**Interface**
+1. In Interface we use the implement keyword and inheritance concept is available for future purpose
+2. Parent class constructor and static block such thing are not present so execution time will be decreases.
+
+![image](https://user-images.githubusercontent.com/67812755/117149431-d8637200-add4-11eb-9493-7eb62dfd3dd7.png)
